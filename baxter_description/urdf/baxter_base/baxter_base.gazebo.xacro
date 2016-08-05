@@ -58,12 +58,12 @@
   <!-- Gazebo-Specific Sensor Properties -->
   <gazebo reference="head_camera">
     <sensor name="head_camera" type="camera">
-      <update_rate>30.0</update_rate>
+      <update_rate>14.0</update_rate>
       <camera name="head_camera">
         <pose>0.0 0.21 0.0 0.0 -0.8 -1.570796327 </pose>
         <horizontal_fov>1.3962634</horizontal_fov>
         <image>
-          <width>800</width>
+          <width>1280</width>
           <height>800</height>
           <format>R8G8B8</format>
         </image>
@@ -96,12 +96,12 @@
   </gazebo>
   <gazebo reference="right_hand_camera">
     <sensor name="right_hand_camera" type="camera">
-      <update_rate>30.0</update_rate>
+      <update_rate>14.0</update_rate>
       <camera name="right_hand_camera">
         <pose>0.0 0.0 0.0 0.0 -1.570796327 1.570796327 </pose>
         <horizontal_fov>1.3962634</horizontal_fov>
         <image>
-          <width>800</width>
+          <width>1280</width>
           <height>800</height>
           <format>R8G8B8</format>
         </image>
@@ -134,12 +134,12 @@
   </gazebo>
   <gazebo reference="left_hand_camera">
     <sensor name="left_hand_camera" type="camera">
-      <update_rate>30.0</update_rate>
+      <update_rate>14.0</update_rate>
       <camera name="left_hand_camera">
         <pose>0.0 0.0 0.0 0.0 -1.570796327 1.570796327 </pose>
         <horizontal_fov>1.3962634</horizontal_fov>
         <image>
-          <width>800</width>
+          <width>1280</width>
           <height>800</height>
           <format>R8G8B8</format>
         </image>
